@@ -28,11 +28,11 @@ section {
 
 #box-chicken {
   background-color: #778899;
-}	
+}
 
 #box-beef {
   background-color: #FFB6C1;
-}	
+}
 
 #box-sushi {
   background-color: #20B2AA;
@@ -55,7 +55,7 @@ section {
 }
 
 #section-beef {
-	background-color: #F08080;
+  background-color: #F08080;
 }
 
 #section-sushi {
@@ -66,19 +66,20 @@ section {
 
   .all-sections {
     width: calc(50% - 20px);
-	}
+  }
 
-	#section-sushi {
+  #section-sushi {
     width: calc(100% - 20px);
-	}
+  }
+  
 }
 
 
 @media (max-width: 767px) {
 
-	.all-sections {
-		width: calc(100% - 20px);
-	}
+  .all-sections {
+    width: calc(100% - 20px);
+  }
 
 }
 
